@@ -47,3 +47,15 @@ p {
   height: 200px;
   z-index: -1;
 }
+
+.verified {
+  margin-bottom: 0px;
+  bottom: 40px;
+  left: 1350px;
+  position: relative;
+  cursor: pointer;
+}
+
+.verified-menu-up {
+  margin-left: 100px;
+}
