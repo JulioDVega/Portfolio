@@ -1,10 +1,22 @@
+/* ---Added by Albert for full screen carousel---*/
+html, body {
+  height: 100%;
+}
+/*-----------------------------------------------*/
 #home{
 	background: url(images/black.jpg);
 }
-.carousel {
-	height: 500px;
-	overflow: hidden;
+/* ---Added by Albert for full screen carousel---*/
+.carousel, .item, .active {
+	/*height: 500px;
+	overflow: hidden;*/
+  height: 100%;
 }
+
+.carousel-inner {
+  height: 100%;
+}
+/*-----------------------------------------------*/
 .item img{
 	width: 100% ;
   	-webkit-filter: grayscale(1);
@@ -29,5 +41,3 @@ p {
  height: 200px;
  z-index: -1;
 }
-
-
