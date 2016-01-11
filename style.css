@@ -1,4 +1,7 @@
 /* ---Added by Albert for full screen carousel---*/
+body {
+  padding-top: 50px;
+}
 html, body {
   height: 100%;
 }
