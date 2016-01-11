@@ -2,11 +2,12 @@
 body {
   padding-top: 50px;
 }
+
 html, body {
   height: 100%;
 }
 /*-----------------------------------------------*/
-#home{
+#home {
 	background: url(images/black.jpg);
 }
 /* ---Added by Albert for full screen carousel---*/
@@ -20,27 +21,29 @@ html, body {
   height: 100%;
 }
 /*-----------------------------------------------*/
-.item img{
-	width: 100% ;
-  	-webkit-filter: grayscale(1);
-  	filter: grayscale(1);
-  	text-decoration: white
+.item img {
+  width: 100%;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  text-decoration: white
 }
 
 footer {
     padding: 50px 0;
     background-color: #f8f8f8;
 }
+
 p {
 	font-style: italic;
 	font-style:
 }
+
 #banner {
- position: absolute;
- top: 0px;
- left: 0px;
- right: 0px;
- width: 100%;
- height: 200px;
- z-index: -1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 200px;
+  z-index: -1;
 }
