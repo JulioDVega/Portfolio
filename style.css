@@ -48,10 +48,10 @@ p {
   z-index: -1;
 }
 
-.verified {
+.button-label {
   margin-bottom: 0px;
   bottom: 40px;
-  left: 1350px;
+  left: 82%;
   position: relative;
 }
 
@@ -60,7 +60,7 @@ p {
 }
 
 .verified-menu-up {
-  margin-left: 100px;
+  margin-left: 20px;
 }
 
 .verified-body {
@@ -70,12 +70,14 @@ p {
 .verified-body-img {
   width: 140px;
   height: 140px;
+  float: left;
 }
 
 .verified-body-info {
   display: inline-block;
   height: 140px;
-  width: 140px;
+  width: 80px;
+  margin-left: 15px;
 }
 
 
