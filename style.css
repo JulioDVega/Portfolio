@@ -53,9 +53,29 @@ p {
   bottom: 40px;
   left: 1350px;
   position: relative;
+}
+
+.panel-title{
   cursor: pointer;
 }
 
 .verified-menu-up {
   margin-left: 100px;
 }
+
+.verified-body {
+  display: none;
+}
+
+.verified-body-img {
+  width: 140px;
+  height: 140px;
+}
+
+.verified-body-info {
+  display: inline-block;
+  height: 140px;
+  width: 140px;
+}
+
+
