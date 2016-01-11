@@ -1,0 +1,83 @@
+/* ---Added by Albert for full screen carousel---*/
+body {
+  padding-top: 50px;
+}
+
+html, body {
+  height: 100%;
+}
+/*-----------------------------------------------*/
+#home {
+	background: url(images/black.jpg);
+}
+/* ---Added by Albert for full screen carousel---*/
+.carousel, .item, .active {
+	/*height: 500px;
+	overflow: hidden;*/
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+/*-----------------------------------------------*/
+.item img {
+  width: 100%;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  text-decoration: white
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p {
+	font-style: italic;
+	font-style:
+}
+
+#banner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 200px;
+  z-index: -1;
+}
+
+.button-label {
+  margin-bottom: 0px;
+  bottom: 40px;
+  left: 82%;
+  position: relative;
+}
+
+.panel-title{
+  cursor: pointer;
+}
+
+.verified-menu-up {
+  margin-left: 20px;
+}
+
+.verified-body {
+  display: none;
+}
+
+.verified-body-img {
+  width: 140px;
+  height: 140px;
+  float: left;
+}
+
+.verified-body-info {
+  display: inline-block;
+  height: 140px;
+  width: 80px;
+  margin-left: 15px;
+}
+
+
